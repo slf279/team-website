@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/fonts/SourceSansPro-Regular.ttf');
+  }
+html, body {
+    height: 100%;
+}
+* {
+    font-family: 'Source Sans Pro';
+}
+.navbar {
+    height: 50px;
+    margin-bottom: 3%;
+    background-color: rgba(200,200,200, .8);
+}
+.navbar-item {
+    display: inline;
+    vertical-align: middle;
+}
+.navbar-logo {
+    height: 100%;
+    padding: 3%;
+}
+.navbar-logo img {
+    height: 100%;
+    width: auto;
+}
+.spacer {
+    height: 100%;
+}
+.content {
+    background-color: rgba(200,200,200, .8);
+}
+.parallax {
+    /* The image used */
+    background-image: url("/images/elephant-photo.png");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
