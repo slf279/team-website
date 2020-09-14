@@ -8,30 +8,13 @@
     src: url('/fonts/Raleway-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.ttf');
+}
+
 * {
-    font-family: 'Raleway';
-}
-
-@media(max-width: 800px) {
-    .nav {
-        display: block;
-    }
-}
-
-.nav {
-    position: relative;
-    display: flex;
-    height: 5rem;
-    width: 100vw;
-    background-color: #bde5f0;
-    font-size: 2.5rem;
-}
-
-.nav-item {
-    display: block;
-    text-decoration: none;
-    color: black;
-    margin: auto;
+    font-family: 'Open Sans';
 }
 
 #nav-items-mobile,
@@ -50,14 +33,6 @@
     color: black;
     text-decoration: none;
     display: flex;
-}
-
-.nav-brand * {
-    margin: auto 0;
-}
-
-.nav-brand img {
-    height: 90%;
 }
 
 .view-spacer {
