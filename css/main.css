@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('fonts/SourceSansPro-Regular.ttf');
+    src: url('../fonts/SourceSansPro-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url('fonts/Raleway-Regular.ttf');
+    src: url('../fonts/Raleway-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 * {
@@ -29,7 +29,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url('images/elephant-photo.png');
+    background-image: url('../images/elephant-photo.png');
     /* Set a specific height */
     height: 600px;
     /* Create the parallax scrolling effect */
