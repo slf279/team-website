@@ -37,3 +37,30 @@
     background-position: center;
     background-size: cover;
 }
+
+
+.about-banner {
+  width: 100%;
+  background-image: url("../images/members-banner.png");
+  height: 200px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 700px 200px;
+  border: 2px black;
+  border-style: solid none;
+}
+
+.inline {
+  display:inline-block;
+  justify-content:left;
+  padding: 10px;
+}
+
+.inlinetext {
+  display:inline-block;
+  vertical-align:top;
+  justify-content:left;
+  padding: 10px;
+  width:550px;
+}
