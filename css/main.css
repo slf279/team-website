@@ -26,20 +26,16 @@ html {
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  height: 100%;
 }
 
-.spacer {
-  height: calc(100vh - 3.3rem);
-  position: static;
-}
 .logo-tile {
-  margin: 5% auto;
+  max-height: 9rem;
 }
 
 .content {
-  background-color: #8ad2fddd;
-  padding-bottom: 1rem;
+  /* background-color: #8ad2fd88; */
+  background-color: #00000055;
+  padding: 1rem;
 }
 
 .about-banner {
